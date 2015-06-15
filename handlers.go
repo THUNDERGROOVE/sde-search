@@ -2,8 +2,10 @@ package main
 
 import (
 	"github.com/THUNDERGROOVE/SDETool/sde"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
+	"strconv"
 )
 
 type Global struct {
@@ -50,5 +52,18 @@ func HandlerSearch(rw http.ResponseWriter, req *http.Request) {
 }
 
 func HandlerType(rw http.ResponseWriter, req *http.Request) {
+	g := &Global{}
+
+	if tids, ok := mux.Vars(req)["TypeID"]; ok {
+		i, _ := strconv.Atoi(tids) // Ignore error because mux will ensure that it's castable to an int before letting the handdler kick in
+		t, err := SDE.GetType(i)
+		if err != nil {
+			log.Println("TODO: Show error page")
+		}
+		g.Type = t
+		Render(rw, "type.tmpl", g)
+	} else {
+		log.Println("TODO: Error page when  TypeID doesn't exist")
+	}
 
 }
