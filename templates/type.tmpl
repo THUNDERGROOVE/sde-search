@@ -8,12 +8,14 @@
 			<h5>TypeID: {{.Type.TypeID}}</h5>
 		</div>
 	</div>
+	{{if .Type.GetAttribute "mDescription"}}
 	<div class="uk-block">
 		<div class="uk-container uk-container-center">
 			<h1>Description:</h3>
 			<p>{{.Type.GetAttribute "mDescription"}}</p>
 		</div>
 	</div>
+	{{end}}
 	<div class="uk-block">
 		<div class="uk-container uk-container-center">
 			<h1>Attributes</h1>
