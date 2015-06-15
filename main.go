@@ -5,16 +5,19 @@ import (
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
+	"os"
 )
 
-var SDE *sde.SDE
-
-// @TODO: change to var and update at init to true if .git is found in the current working directory
-const (
+var (
+	SDE *sde.SDE
 	Dev = false
 )
 
 func init() {
+	if _, err := os.Stat(".git"); err != nil {
+		log.Println("Git data found.  Running in development mode")
+		Dev = true
+	}
 	if Dev == false {
 		log.Printf("In non-development environment.  Unpacking assets")
 		UnpackAssets()
