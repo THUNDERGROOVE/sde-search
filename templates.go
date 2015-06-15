@@ -5,6 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
+	"os"
 	"path/filepath"
 )
 
@@ -58,5 +59,28 @@ func Render(rw io.Writer, templateName string, g interface{}) {
 		for k, _ := range Templates {
 			log.Println(k)
 		}
+	}
+}
+
+/*
+	Assets stuff
+*/
+
+func UnpackAssets() {
+	for _, v := range AssetNames() {
+		unpackAsset(v)
+	}
+}
+func unpackAsset(assName string) {
+	d, _ := filepath.Split(assName)
+	if err := os.MkdirAll(d, 0777); err != nil {
+		log.Fatalf("Unable to make directory for asset: %v [%v]", d, err.Error())
+	}
+	data, err := Asset(assName)
+	if err != nil {
+		log.Fatalf("Unable to unpack asset from binary: %v [%v]", assName, err.Error())
+	}
+	if err := ioutil.WriteFile(assName, data, 0777); err != nil {
+		log.Fatalf("Unable to write unpacked asset to directory: %v [%v]", assName, err.Error())
 	}
 }

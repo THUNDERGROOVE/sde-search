@@ -10,7 +10,7 @@ import (
 var SDE *sde.SDE
 
 const (
-	Dev = true
+	Dev = false
 )
 
 func init() {
@@ -19,6 +19,10 @@ func init() {
 }
 
 func main() {
+	if Dev == false {
+		log.Printf("In non-development environment.  Unpacking assets")
+		UnpackAssets()
+	}
 	log.Println("Loading SDE related things")
 	var err error
 	SDE, err = sde.Load("dust.sde")
