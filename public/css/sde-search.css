@@ -1,0 +1,6 @@
+.sde-footer {
+   position:absolute;
+   bottom:0;
+   width: 95%;
+   height:10px;   /* Height of the footer */
+}

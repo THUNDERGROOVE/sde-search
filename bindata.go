@@ -61,7 +61,27 @@ func (fi bindata_file_info) Sys() interface{} {
 	return nil
 }
 
-var _templates_base_tmpl = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\xa4\x54\x4d\x6f\xdb\x3c\x0c\x3e\xe7\x05\xde\xff\xc0\xe9\x58\xcc\xf1\x75\x07\xa7\xc0\xb0\x16\x03\x06\x6c\x2d\x96\x5e\x76\x94\x25\xba\x56\x22\x4b\x9e\x44\x27\x33\xbc\xfc\xf7\xd1\x1f\xb1\x1d\xa0\x3b\xcd\x17\x53\x14\xf9\xf0\xe3\xa1\xd8\x75\x1a\x0b\xe3\x10\x44\x2e\x23\x8a\xcb\xe5\xff\xff\xb2\x77\x0f\x4f\x9f\x5e\x7e\x3c\x3f\x42\x49\x95\xbd\x67\xc5\xf4\x07\xc8\x4a\x94\x7a\x90\x58\xae\x90\x24\xa8\x52\x86\x88\xb4\x13\x0d\x15\xc9\x07\x71\x73\xe7\x64\x85\x3b\x21\x1b\x2a\x7d\x10\xa0\xbc\x23\x74\x6c\xf9\xcd\xa8\x23\x3c\xfb\x33\x5a\x7b\xb5\xef\x3a\xc2\xaa\xb6\x92\x38\x8f\xde\x55\xc0\xb6\xcf\x64\x80\x22\x43\x16\xef\xf7\x0f\x8f\xb0\x47\x19\x54\x09\xbf\x6f\xcc\x87\xeb\xc1\x3e\x4b\x47\xd3\xc9\xcf\x1a\x77\x84\x80\x76\x27\x22\xb5\x16\x63\x89\x48\x02\xa8\xad\x39\x27\xc2\x5f\x94\xaa\x18\x05\x94\x01\x8b\x9d\x48\xeb\x26\xb7\x46\xf5\xaa\xb4\x31\x47\x43\x5b\x69\x2b\x1f\x29\x29\x38\xc8\xb6\x32\x6e\xdb\x1b\xff\x2b\x72\xd4\x98\xc4\xa1\x86\x1b\xb8\xa8\x82\xa9\x69\xed\x7f\x90\x27\x39\x6a\x05\xc4\xa0\x16\x94\x43\x4c\x0f\x3f\x1b\x0c\xed\x90\xd3\x81\x31\xb2\x74\x34\x1c\xe9\x49\x67\x7e\xb2\xdc\xeb\x76\x90\x36\x99\x36\x27\x50\x56\xc6\xc8\x2c\x1d\x13\x27\x4f\xb9\x0c\x63\xf4\xcd\xdb\x97\x49\x1e\xa4\xd3\xc0\xe7\xd2\x68\x8d\x2e\x89\x95\xec\xc9\xca\xe4\xb5\x2a\xb1\x22\x24\x4b\x25\xa7\xc1\x38\x53\x41\x1c\xfc\x4d\xd0\x69\x00\x60\xd1\x14\xd6\xd4\x62\xf6\xea\x3a\x53\xc0\xf6\x01\x4f\x68\xaf\xe4\x0f\x60\x73\x50\x8d\xa7\x94\xdb\xee\xa5\x16\xf7\xdf\x87\x3f\x5c\xe7\x20\xf6\x49\x00\x2c\x5e\x5d\x97\xde\xc1\x57\x79\x44\x68\x22\xc2\x97\x3d\x90\x87\xcf\x8f\x2f\x60\x22\x27\xc1\x8e\xbe\x80\x93\xc1\xb3\x71\xaf\x40\x25\x42\x2d\x5f\x11\xce\x86\xca\xfe\x64\x02\xe4\xc1\x9f\x23\x86\x05\x6f\xf8\x3e\x5a\xc2\xe0\x24\x19\x4e\xb1\x7d\x3f\x20\x4b\x1e\x04\x6d\x02\x2a\xea\x23\xd4\x0d\xf5\x00\x15\x48\x5a\x60\x59\x68\x41\xf1\x5b\x80\x22\xf8\x6a\xbb\x60\xde\xa5\x4b\x9d\x5d\x87\x4e\x2f\xc7\xa5\x9f\x7f\xa3\x68\xd5\xcd\x35\x49\x6f\x76\x77\xc3\x20\x85\x0f\xd5\x0a\x65\x38\xf2\xbf\x92\xe1\xd5\xb8\x24\x60\xe5\x4f\xd8\x2b\xb4\x89\xdc\xd1\x36\x31\x8e\xc7\x1c\x93\xdc\x7a\x75\x14\x20\x15\x19\xef\x98\x83\x71\x7e\x05\xf0\x2b\x2d\xbd\xde\x89\xe7\xa7\xfd\xcb\x1c\x64\x93\x19\xd7\xb7\x60\x7c\xf8\x57\xd3\xdb\xa0\xc9\xd9\x68\x2a\xa7\x89\x02\x0e\xa5\xb0\xf4\x56\x63\x98\x1d\x16\xb4\xbc\x21\xf2\x6e\x05\x30\x29\x66\x29\xa9\x83\xe1\x0a\x5a\x1e\xc7\x26\xaf\x0c\x65\xe9\xa8\x9f\xab\x4e\xfb\x90\xd7\x3e\x2e\x3d\x5d\x89\xeb\x5d\x32\xf5\x74\xde\x3e\x0c\x37\xbe\x22\x7e\x58\xe3\x0a\x9c\x69\x5a\xf6\xe6\xb0\xaf\x2e\x97\xe9\xe6\x4f\x00\x00\x00\xff\xff\x21\x35\x19\xea\x50\x05\x00\x00")
+var _templates_about_tmpl = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\xac\x53\xc1\x6e\xdb\x30\x0c\x3d\x77\xc0\xfe\x81\xf0\x65\xa7\xc4\xd8\xb5\x70\x03\x0c\x68\x90\xe6\xb0\x15\x68\xb3\xdd\x69\x89\xb1\xb5\xc8\xa2\x47\xc9\x69\x03\x23\xff\x3e\xca\x59\xba\x64\xc0\x6e\x3d\x99\xa2\xc8\xc7\xf7\x9e\xe8\x71\x4c\xd4\xf5\x1e\x13\x41\x51\x63\xa4\x02\xe6\xc7\xe3\xc7\x0f\xe3\x68\x69\xeb\x82\x26\x93\x4b\x9e\x8a\xe3\x71\x1d\x2c\xbd\x8e\x23\x05\x7b\x7d\x6f\x38\x24\x0a\xa9\xc8\xd9\x9b\xca\xba\x3d\x18\x8f\x31\xde\x15\xc3\x6e\x96\xef\x50\xab\x04\x2e\x0f\x33\xa3\xf5\x24\xc5\x42\x1b\xfe\xed\xe8\x31\x90\x87\x73\x30\xab\xf9\xf5\xea\x30\x8b\xa4\x30\x16\xe5\x70\xea\xbe\xa9\xda\xcf\x8b\x2f\x35\x0f\xe9\xb6\x2a\x35\x9c\x72\xcf\xf7\x4b\x78\x26\x14\xd3\x82\x8b\x80\x10\x3b\xf4\x1e\x5e\xa8\x06\xec\x7b\xef\x0c\x26\xc7\x01\x2c\x45\xd7\x04\xb2\x90\x18\x3a\xdc\x11\xa8\x1c\xeb\x42\x03\x0a\x06\x2e\x6c\x59\xba\x53\x21\x66\x78\x48\x2d\x81\x53\xab\x22\x1c\x78\x80\x21\xea\x29\x40\x83\x1d\x01\x61\x74\x24\x93\x96\x52\xc5\xbc\x97\xaa\x0d\x99\x36\x28\x59\x7f\x49\xe6\x7f\x22\x5f\xc4\x25\x7d\x05\x50\x63\x9d\x90\x3f\x64\x72\x2b\x9e\x57\xb5\x9c\xaa\xd7\x29\x53\x8e\x93\x8a\x68\x09\x7a\x34\x3b\x6c\xf2\x57\x12\xf0\x16\x14\x6d\xc3\xec\xb3\x17\x59\x8e\x02\x60\xb0\xf0\x6b\x70\x66\xa7\x71\x76\xe6\x64\xc0\x85\x2d\x6a\xc3\x27\x21\xf0\xcc\xbb\xec\x9a\x5e\xfc\x1d\xb7\xc9\x63\x48\xf6\xfa\xf0\x31\xb1\xe8\xe0\xc0\xc0\x8a\x20\x0a\x83\x4a\x53\x84\x45\x5b\x9b\x78\xdd\xd3\x0b\xff\x24\x93\xb2\x22\xee\x55\x4e\xe4\x41\x0c\x4d\x5c\x70\x8f\xce\x63\xed\x09\x2a\x84\x56\x68\x7b\x57\xb4\x29\xf5\xf1\xb6\x2c\x1b\x97\xda\xa1\x9e\x1b\xee\xca\xcd\xc3\xf7\x6f\xf7\xcb\xa7\xd5\xd3\xe3\xe3\x8f\x65\xa9\x4a\xd5\xda\xec\x51\xb1\x50\xc6\x2b\x97\x1e\x86\xba\x2a\x71\x71\xe9\x8b\xce\xd2\x9d\xa0\x10\x75\x15\x06\xdd\x71\x99\x94\x7e\x5d\x6f\xce\xe9\x37\x8a\x6f\xcf\x7b\x0e\xfe\xfc\x0d\xbf\x03\x00\x00\xff\xff\xcc\xf0\x52\x12\x43\x03\x00\x00")
+
+func templates_about_tmpl_bytes() ([]byte, error) {
+	return bindata_read(
+		_templates_about_tmpl,
+		"templates/about.tmpl",
+	)
+}
+
+func templates_about_tmpl() (*asset, error) {
+	bytes, err := templates_about_tmpl_bytes()
+	if err != nil {
+		return nil, err
+	}
+
+	info := bindata_file_info{name: "templates/about.tmpl", size: 835, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
+	a := &asset{bytes: bytes, info:  info}
+	return a, nil
+}
+
+var _templates_base_tmpl = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\xa4\x54\x5b\x6f\xeb\x36\x0c\x7e\xee\x80\xfd\x07\x4e\x8f\x07\x73\xf4\x3a\x0c\x4e\xb1\x4b\x83\x33\x0c\xd8\x69\xd1\x76\x07\xd8\xa3\x2c\xd1\xb5\x12\x59\xf2\x24\x3a\x69\xe0\xe5\xbf\x8f\xbe\xc4\x76\x80\xee\x69\x7e\x31\x45\x51\x1f\xc9\x8f\x97\xae\x33\x58\x5a\x8f\x20\x0a\x95\x50\x5c\x2e\xdf\x7e\x93\x7f\xf7\xf0\xf8\xeb\xeb\x5f\x4f\x3b\xa8\xa8\x76\xf7\xac\x98\xfe\x00\x79\x85\xca\x0c\x12\xcb\x35\x92\x02\x5d\xa9\x98\x90\xb6\xa2\xa5\x32\xfb\x41\xdc\xdc\x79\x55\xe3\x56\xa8\x96\xaa\x10\x05\xe8\xe0\x09\x3d\x5b\x7e\xb1\xfa\x00\x4f\xe1\x84\xce\x5d\xed\xbb\x8e\xb0\x6e\x9c\x22\x8e\xa3\x7f\x2a\x60\xd3\x47\x32\x40\x91\x25\x87\xf7\x2f\x0f\x3b\x78\x41\x15\x75\x05\xff\xdc\x98\x0f\xd7\x83\x7d\x2e\x47\xd3\xe9\x9d\xb3\xfe\x00\x11\xdd\x56\x24\x3a\x3b\x4c\x15\x22\x09\xa0\x73\xc3\x31\x11\xbe\x93\xd4\x29\x09\xa8\x22\x96\x5b\x21\x9b\xb6\x70\x56\xf7\x2a\xd9\xda\x83\xa5\x8d\x72\x75\x48\x94\x95\xec\x64\x53\x5b\xbf\xe9\x8d\xff\x2f\x72\x32\x98\xa5\x21\x87\x1b\xb8\xa4\xa3\x6d\x68\xfd\x7e\xaf\x8e\x6a\xd4\x0a\x48\x51\x2f\x28\xfb\x24\xf7\x7f\xb7\x18\xcf\x43\x4c\x7b\xc6\xc8\xe5\x68\x38\x96\x47\xce\xf5\xc9\x8b\x60\xce\x83\x74\x97\x1b\x7b\x04\xed\x54\x4a\x5c\xa5\x43\xe6\xd5\xb1\x50\x71\xf4\x7e\xf7\xf1\x65\x56\x44\xe5\x0d\xf0\xb9\xb2\xc6\xa0\xcf\x52\xad\xfa\x62\xe5\xea\x9a\x95\x58\x15\x24\x97\x8a\xc3\x60\x9c\x29\x21\x76\xfe\x21\xe8\xd4\x00\xb0\x68\x4a\x67\x1b\x31\xbf\xea\x3a\x5b\xc2\xe6\x01\x8f\xe8\xae\xc5\x1f\xc0\x66\xa7\x06\x8f\x92\x69\x0f\xca\x88\xfb\xe7\xe1\x0f\xd7\x3e\x48\x7d\x10\x00\xcb\xab\xae\x93\x9f\xe0\x0f\x75\x40\x68\x13\xc2\xef\x2f\x40\x01\x3e\xef\x5e\xc1\x26\x0e\x82\x1f\x86\x12\x8e\x16\x4f\xd6\xbf\x01\x55\x08\x8d\x7a\x43\x38\x59\xaa\xfa\x93\x8d\x50\xc4\x70\x4a\x18\x17\xbc\xe1\xfb\xd9\x11\x46\xaf\xc8\x72\x88\xe7\xef\x07\x64\xc5\x8d\x60\x6c\x44\x4d\xbd\x87\xa6\xa5\x1e\xa0\x06\x45\x0b\x2c\x0b\x67\xd0\x3c\x0b\x50\xc6\x50\x6f\x16\xcc\x4f\x72\xc9\xb3\xeb\xd0\x9b\xe5\xb8\xf0\xf9\x5f\x25\x5a\xb1\xb9\x2e\xd2\x87\xec\xde\x31\x48\x19\x62\xbd\x42\x19\x8e\xfc\xaf\x55\x7c\xb3\x3e\x8b\x58\x87\x23\xf6\x0a\x63\x13\x33\x7a\xce\xac\xe7\x36\xc7\xac\x70\x41\x1f\x04\x28\x4d\x36\x78\xae\xc1\xd8\xbf\x02\x78\x4a\xab\x60\xb6\xe2\xe9\xf1\xe5\x75\x76\x72\x97\x5b\xdf\x53\x30\x0e\xfe\xd5\xf4\xd6\x69\x76\xb2\x86\xaa\xa9\xa3\x80\x5d\x69\xac\x82\x33\x18\xe7\x07\x0b\x5a\xd1\x12\x05\xbf\x02\x98\x14\xb3\x94\x35\xd1\x72\x06\x67\x6e\xc7\xb6\xa8\x2d\xe5\x72\xd4\xcf\x59\xcb\xde\xe5\x95\xc7\x85\xd3\x95\xb8\xde\x25\x13\xa7\xeb\xed\x73\xcb\x7d\xa3\x3c\x0e\x14\x0f\x42\x56\x84\x77\xe8\x87\xba\x0c\x81\x1b\x63\x3d\x13\x70\xc4\x98\x98\xb1\xa5\x7b\x2b\xa2\x26\xfd\x28\xe5\x1b\x37\x59\x5b\x6c\x74\xa8\xe5\xeb\x6f\x7f\x7e\x79\xd8\x3d\x7f\x7e\x7e\x7c\xfc\xba\x5b\x6d\x07\xc9\x97\x9c\x8c\xec\xba\xcd\xd7\x11\xe6\x72\x11\xf7\xeb\x53\xdf\xed\x3f\xb1\xe2\x17\x9e\x53\x5d\xf5\xe7\x65\xfc\x98\x83\xeb\xe8\xcf\x22\x2f\x86\x71\x85\xcf\x6d\xb6\xec\xfd\x61\xdf\x5e\x2e\xd3\xcd\xbf\x01\x00\x00\xff\xff\xeb\x25\xb1\xa8\x10\x06\x00\x00")
 
 func templates_base_tmpl_bytes() ([]byte, error) {
 	return bindata_read(
@@ -76,7 +96,7 @@ func templates_base_tmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "templates/base.tmpl", size: 1360, mode: os.FileMode(438), modTime: time.Unix(1434406068, 0)}
+	info := bindata_file_info{name: "templates/base.tmpl", size: 1552, mode: os.FileMode(438), modTime: time.Unix(1434412439, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -96,7 +116,7 @@ func templates_error_tmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "templates/error.tmpl", size: 459, mode: os.FileMode(438), modTime: time.Unix(1434409305, 0)}
+	info := bindata_file_info{name: "templates/error.tmpl", size: 459, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -116,7 +136,7 @@ func templates_index_tmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "templates/index.tmpl", size: 247, mode: os.FileMode(438), modTime: time.Unix(1434408703, 0)}
+	info := bindata_file_info{name: "templates/index.tmpl", size: 247, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -136,7 +156,7 @@ func templates_info_tmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "templates/info.tmpl", size: 343, mode: os.FileMode(438), modTime: time.Unix(1434407366, 0)}
+	info := bindata_file_info{name: "templates/info.tmpl", size: 343, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -156,7 +176,7 @@ func templates_search_tmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "templates/search.tmpl", size: 538, mode: os.FileMode(438), modTime: time.Unix(1434266155, 0)}
+	info := bindata_file_info{name: "templates/search.tmpl", size: 538, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -176,12 +196,12 @@ func templates_type_tmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "templates/type.tmpl", size: 929, mode: os.FileMode(438), modTime: time.Unix(1434410455, 0)}
+	info := bindata_file_info{name: "templates/type.tmpl", size: 929, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
 
-var _public_css_sde_search_css = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x01\x00\x00\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00")
+var _public_css_sde_search_css = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\xd2\x2b\x4e\x49\xd5\x4d\xcb\xcf\x2f\x49\x2d\x52\xa8\xe6\xe5\x52\x50\x50\x28\xc8\x2f\xce\x2c\xc9\xcc\xcf\xb3\x4a\x4c\x2a\xce\xcf\x29\x2d\x49\xb5\x06\x0b\x27\xe5\x97\x94\xe4\xe7\x5a\x19\x40\x78\xe5\x99\x29\x25\x19\x56\x0a\x96\xa6\xaa\x10\x7e\x46\x6a\x66\x7a\x46\x89\x95\xa1\x41\x41\x85\x35\x90\xab\xaf\xa5\xe0\x01\x16\x51\xc8\x4f\x53\x28\xc9\x48\x55\x80\xda\xa0\xa5\xcf\xcb\x55\x0b\x08\x00\x00\xff\xff\x54\x61\x46\x84\x73\x00\x00\x00")
 
 func public_css_sde_search_css_bytes() ([]byte, error) {
 	return bindata_read(
@@ -196,7 +216,7 @@ func public_css_sde_search_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/sde-search.css", size: 0, mode: os.FileMode(438), modTime: time.Unix(1434403931, 0)}
+	info := bindata_file_info{name: "public/css/sde-search.css", size: 115, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -216,7 +236,7 @@ func public_css_uikit_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/uikit.almost-flat.css", size: 173295, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/uikit.almost-flat.css", size: 173295, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -236,7 +256,7 @@ func public_css_uikit_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/uikit.almost-flat.min.css", size: 98497, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/uikit.almost-flat.min.css", size: 98497, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -256,7 +276,7 @@ func public_css_uikit_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/uikit.css", size: 164594, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/uikit.css", size: 164594, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -276,7 +296,7 @@ func public_css_uikit_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/uikit.gradient.css", size: 176514, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/uikit.gradient.css", size: 176514, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -296,7 +316,7 @@ func public_css_uikit_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/uikit.gradient.min.css", size: 101309, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/uikit.gradient.min.css", size: 101309, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -316,7 +336,7 @@ func public_css_uikit_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/uikit.min.css", size: 92342, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/uikit.min.css", size: 92342, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -336,7 +356,7 @@ func public_css_components_accordion_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/accordion.almost-flat.css", size: 1062, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/components/accordion.almost-flat.css", size: 1062, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -356,7 +376,7 @@ func public_css_components_accordion_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/accordion.almost-flat.min.css", size: 473, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/components/accordion.almost-flat.min.css", size: 473, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -376,7 +396,7 @@ func public_css_components_accordion_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/accordion.css", size: 1011, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/components/accordion.css", size: 1011, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -396,7 +416,7 @@ func public_css_components_accordion_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/accordion.gradient.css", size: 1062, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/components/accordion.gradient.css", size: 1062, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -416,7 +436,7 @@ func public_css_components_accordion_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/accordion.gradient.min.css", size: 473, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/components/accordion.gradient.min.css", size: 473, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -436,7 +456,7 @@ func public_css_components_accordion_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/accordion.min.css", size: 430, mode: os.FileMode(438), modTime: time.Unix(1434264192, 0)}
+	info := bindata_file_info{name: "public/css/components/accordion.min.css", size: 430, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -456,7 +476,7 @@ func public_css_components_autocomplete_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/autocomplete.almost-flat.css", size: 1247, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/autocomplete.almost-flat.css", size: 1247, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -476,7 +496,7 @@ func public_css_components_autocomplete_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/autocomplete.almost-flat.min.css", size: 473, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/autocomplete.almost-flat.min.css", size: 473, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -496,7 +516,7 @@ func public_css_components_autocomplete_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/autocomplete.css", size: 1154, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/autocomplete.css", size: 1154, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -516,7 +536,7 @@ func public_css_components_autocomplete_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/autocomplete.gradient.css", size: 1248, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/autocomplete.gradient.css", size: 1248, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -536,7 +556,7 @@ func public_css_components_autocomplete_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/autocomplete.gradient.min.css", size: 474, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/autocomplete.gradient.min.css", size: 474, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -556,7 +576,7 @@ func public_css_components_autocomplete_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/autocomplete.min.css", size: 396, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/autocomplete.min.css", size: 396, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -576,7 +596,7 @@ func public_css_components_datepicker_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/datepicker.almost-flat.css", size: 2726, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/datepicker.almost-flat.css", size: 2726, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -596,7 +616,7 @@ func public_css_components_datepicker_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/datepicker.almost-flat.min.css", size: 1460, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/datepicker.almost-flat.min.css", size: 1460, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -616,7 +636,7 @@ func public_css_components_datepicker_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/datepicker.css", size: 2509, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/datepicker.css", size: 2509, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -636,7 +656,7 @@ func public_css_components_datepicker_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/datepicker.gradient.css", size: 3154, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/datepicker.gradient.css", size: 3154, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -656,7 +676,7 @@ func public_css_components_datepicker_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/datepicker.gradient.min.css", size: 1827, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/datepicker.gradient.min.css", size: 1827, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -676,7 +696,7 @@ func public_css_components_datepicker_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/datepicker.min.css", size: 1279, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/datepicker.min.css", size: 1279, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -696,7 +716,7 @@ func public_css_components_dotnav_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/dotnav.almost-flat.css", size: 2806, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/dotnav.almost-flat.css", size: 2806, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -716,7 +736,7 @@ func public_css_components_dotnav_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/dotnav.almost-flat.min.css", size: 1388, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/dotnav.almost-flat.min.css", size: 1388, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -736,7 +756,7 @@ func public_css_components_dotnav_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/dotnav.css", size: 2668, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/dotnav.css", size: 2668, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -756,7 +776,7 @@ func public_css_components_dotnav_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/dotnav.gradient.css", size: 2806, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/dotnav.gradient.css", size: 2806, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -776,7 +796,7 @@ func public_css_components_dotnav_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/dotnav.gradient.min.css", size: 1388, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/dotnav.gradient.min.css", size: 1388, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -796,7 +816,7 @@ func public_css_components_dotnav_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/dotnav.min.css", size: 1268, mode: os.FileMode(438), modTime: time.Unix(1434264193, 0)}
+	info := bindata_file_info{name: "public/css/components/dotnav.min.css", size: 1268, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -816,7 +836,7 @@ func public_css_components_form_advanced_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-advanced.almost-flat.css", size: 1857, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-advanced.almost-flat.css", size: 1857, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -836,7 +856,7 @@ func public_css_components_form_advanced_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-advanced.almost-flat.min.css", size: 1158, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-advanced.almost-flat.min.css", size: 1158, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -856,7 +876,7 @@ func public_css_components_form_advanced_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-advanced.css", size: 1857, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-advanced.css", size: 1857, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -876,7 +896,7 @@ func public_css_components_form_advanced_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-advanced.gradient.css", size: 1857, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-advanced.gradient.css", size: 1857, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -896,7 +916,7 @@ func public_css_components_form_advanced_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-advanced.gradient.min.css", size: 1158, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-advanced.gradient.min.css", size: 1158, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -916,7 +936,7 @@ func public_css_components_form_advanced_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-advanced.min.css", size: 1158, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-advanced.min.css", size: 1158, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -936,7 +956,7 @@ func public_css_components_form_file_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-file.almost-flat.css", size: 766, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-file.almost-flat.css", size: 766, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -956,7 +976,7 @@ func public_css_components_form_file_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-file.almost-flat.min.css", size: 295, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-file.almost-flat.min.css", size: 295, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -976,7 +996,7 @@ func public_css_components_form_file_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-file.css", size: 766, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-file.css", size: 766, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -996,7 +1016,7 @@ func public_css_components_form_file_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-file.gradient.css", size: 766, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-file.gradient.css", size: 766, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1016,7 +1036,7 @@ func public_css_components_form_file_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-file.gradient.min.css", size: 295, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-file.gradient.min.css", size: 295, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1036,7 +1056,7 @@ func public_css_components_form_file_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-file.min.css", size: 295, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-file.min.css", size: 295, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1056,7 +1076,7 @@ func public_css_components_form_password_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-password.almost-flat.css", size: 815, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-password.almost-flat.css", size: 815, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1076,7 +1096,7 @@ func public_css_components_form_password_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-password.almost-flat.min.css", size: 403, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-password.almost-flat.min.css", size: 403, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1096,7 +1116,7 @@ func public_css_components_form_password_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-password.css", size: 815, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-password.css", size: 815, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1116,7 +1136,7 @@ func public_css_components_form_password_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-password.gradient.css", size: 815, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-password.gradient.css", size: 815, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1136,7 +1156,7 @@ func public_css_components_form_password_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-password.gradient.min.css", size: 403, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-password.gradient.min.css", size: 403, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1156,7 +1176,7 @@ func public_css_components_form_password_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-password.min.css", size: 403, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-password.min.css", size: 403, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1176,7 +1196,7 @@ func public_css_components_form_select_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-select.almost-flat.css", size: 784, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-select.almost-flat.css", size: 784, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1196,7 +1216,7 @@ func public_css_components_form_select_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-select.almost-flat.min.css", size: 309, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-select.almost-flat.min.css", size: 309, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1216,7 +1236,7 @@ func public_css_components_form_select_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-select.css", size: 784, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-select.css", size: 784, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1236,7 +1256,7 @@ func public_css_components_form_select_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-select.gradient.css", size: 784, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-select.gradient.css", size: 784, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1256,7 +1276,7 @@ func public_css_components_form_select_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-select.gradient.min.css", size: 309, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-select.gradient.min.css", size: 309, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1276,7 +1296,7 @@ func public_css_components_form_select_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/form-select.min.css", size: 309, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/form-select.min.css", size: 309, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1296,7 +1316,7 @@ func public_css_components_htmleditor_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/htmleditor.almost-flat.css", size: 5791, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/htmleditor.almost-flat.css", size: 5791, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1316,7 +1336,7 @@ func public_css_components_htmleditor_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/htmleditor.almost-flat.min.css", size: 3337, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/htmleditor.almost-flat.min.css", size: 3337, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1336,7 +1356,7 @@ func public_css_components_htmleditor_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/htmleditor.css", size: 4053, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/htmleditor.css", size: 4053, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1356,7 +1376,7 @@ func public_css_components_htmleditor_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/htmleditor.gradient.css", size: 6154, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/htmleditor.gradient.css", size: 6154, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1376,7 +1396,7 @@ func public_css_components_htmleditor_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/htmleditor.gradient.min.css", size: 3643, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/htmleditor.gradient.min.css", size: 3643, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1396,7 +1416,7 @@ func public_css_components_htmleditor_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/htmleditor.min.css", size: 2089, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/htmleditor.min.css", size: 2089, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1416,7 +1436,7 @@ func public_css_components_nestable_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/nestable.almost-flat.css", size: 3400, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/nestable.almost-flat.css", size: 3400, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1436,7 +1456,7 @@ func public_css_components_nestable_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/nestable.almost-flat.min.css", size: 1428, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/nestable.almost-flat.min.css", size: 1428, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1456,7 +1476,7 @@ func public_css_components_nestable_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/nestable.css", size: 3305, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/nestable.css", size: 3305, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1476,7 +1496,7 @@ func public_css_components_nestable_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/nestable.gradient.css", size: 3609, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/nestable.gradient.css", size: 3609, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1496,7 +1516,7 @@ func public_css_components_nestable_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/nestable.gradient.min.css", size: 1601, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/nestable.gradient.min.css", size: 1601, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1516,7 +1536,7 @@ func public_css_components_nestable_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/nestable.min.css", size: 1352, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/nestable.min.css", size: 1352, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1536,7 +1556,7 @@ func public_css_components_notify_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/notify.almost-flat.css", size: 2601, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/notify.almost-flat.css", size: 2601, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1556,7 +1576,7 @@ func public_css_components_notify_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/notify.almost-flat.min.css", size: 1177, mode: os.FileMode(438), modTime: time.Unix(1434264194, 0)}
+	info := bindata_file_info{name: "public/css/components/notify.almost-flat.min.css", size: 1177, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1576,7 +1596,7 @@ func public_css_components_notify_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/notify.css", size: 2387, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/notify.css", size: 2387, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1596,7 +1616,7 @@ func public_css_components_notify_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/notify.gradient.css", size: 2601, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/notify.gradient.css", size: 2601, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1616,7 +1636,7 @@ func public_css_components_notify_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/notify.gradient.min.css", size: 1177, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/notify.gradient.min.css", size: 1177, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1636,7 +1656,7 @@ func public_css_components_notify_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/notify.min.css", size: 1006, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/notify.min.css", size: 1006, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1656,7 +1676,7 @@ func public_css_components_placeholder_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/placeholder.almost-flat.css", size: 761, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/placeholder.almost-flat.css", size: 761, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1676,7 +1696,7 @@ func public_css_components_placeholder_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/placeholder.almost-flat.min.css", size: 318, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/placeholder.almost-flat.min.css", size: 318, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1696,7 +1716,7 @@ func public_css_components_placeholder_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/placeholder.css", size: 761, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/placeholder.css", size: 761, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1716,7 +1736,7 @@ func public_css_components_placeholder_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/placeholder.gradient.css", size: 761, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/placeholder.gradient.css", size: 761, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1736,7 +1756,7 @@ func public_css_components_placeholder_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/placeholder.gradient.min.css", size: 318, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/placeholder.gradient.min.css", size: 318, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1756,7 +1776,7 @@ func public_css_components_placeholder_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/placeholder.min.css", size: 318, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/placeholder.min.css", size: 318, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1776,7 +1796,7 @@ func public_css_components_progress_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/progress.almost-flat.css", size: 2885, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/progress.almost-flat.css", size: 2885, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1796,7 +1816,7 @@ func public_css_components_progress_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/progress.almost-flat.min.css", size: 1660, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/progress.almost-flat.min.css", size: 1660, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1816,7 +1836,7 @@ func public_css_components_progress_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/progress.css", size: 2552, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/progress.css", size: 2552, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1836,7 +1856,7 @@ func public_css_components_progress_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/progress.gradient.css", size: 3494, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/progress.gradient.css", size: 3494, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1856,7 +1876,7 @@ func public_css_components_progress_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/progress.gradient.min.css", size: 2211, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/progress.gradient.min.css", size: 2211, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1876,7 +1896,7 @@ func public_css_components_progress_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/progress.min.css", size: 1462, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/progress.min.css", size: 1462, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1896,7 +1916,7 @@ func public_css_components_search_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/search.almost-flat.css", size: 4212, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/search.almost-flat.css", size: 4212, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1916,7 +1936,7 @@ func public_css_components_search_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/search.almost-flat.min.css", size: 2161, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/search.almost-flat.min.css", size: 2161, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1936,7 +1956,7 @@ func public_css_components_search_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/search.css", size: 4118, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/search.css", size: 4118, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1956,7 +1976,7 @@ func public_css_components_search_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/search.gradient.css", size: 4213, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/search.gradient.css", size: 4213, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1976,7 +1996,7 @@ func public_css_components_search_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/search.gradient.min.css", size: 2162, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/search.gradient.min.css", size: 2162, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -1996,7 +2016,7 @@ func public_css_components_search_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/search.min.css", size: 2086, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/search.min.css", size: 2086, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2016,7 +2036,7 @@ func public_css_components_slidenav_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slidenav.almost-flat.css", size: 2074, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slidenav.almost-flat.css", size: 2074, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2036,7 +2056,7 @@ func public_css_components_slidenav_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slidenav.almost-flat.min.css", size: 1035, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slidenav.almost-flat.min.css", size: 1035, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2056,7 +2076,7 @@ func public_css_components_slidenav_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slidenav.css", size: 2074, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slidenav.css", size: 2074, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2076,7 +2096,7 @@ func public_css_components_slidenav_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slidenav.gradient.css", size: 2074, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slidenav.gradient.css", size: 2074, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2096,7 +2116,7 @@ func public_css_components_slidenav_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slidenav.gradient.min.css", size: 1035, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slidenav.gradient.min.css", size: 1035, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2116,7 +2136,7 @@ func public_css_components_slidenav_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slidenav.min.css", size: 1035, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slidenav.min.css", size: 1035, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2136,7 +2156,7 @@ func public_css_components_slider_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slider.almost-flat.css", size: 1843, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slider.almost-flat.css", size: 1843, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2156,7 +2176,7 @@ func public_css_components_slider_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slider.almost-flat.min.css", size: 698, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slider.almost-flat.min.css", size: 698, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2176,7 +2196,7 @@ func public_css_components_slider_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slider.css", size: 1843, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slider.css", size: 1843, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2196,7 +2216,7 @@ func public_css_components_slider_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slider.gradient.css", size: 1843, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slider.gradient.css", size: 1843, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2216,7 +2236,7 @@ func public_css_components_slider_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slider.gradient.min.css", size: 698, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slider.gradient.min.css", size: 698, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2236,7 +2256,7 @@ func public_css_components_slider_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slider.min.css", size: 698, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slider.min.css", size: 698, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2256,7 +2276,7 @@ func public_css_components_slideshow_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slideshow.almost-flat.css", size: 3471, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slideshow.almost-flat.css", size: 3471, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2276,7 +2296,7 @@ func public_css_components_slideshow_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slideshow.almost-flat.min.css", size: 2015, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slideshow.almost-flat.min.css", size: 2015, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2296,7 +2316,7 @@ func public_css_components_slideshow_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slideshow.css", size: 3471, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slideshow.css", size: 3471, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2316,7 +2336,7 @@ func public_css_components_slideshow_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slideshow.gradient.css", size: 3471, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slideshow.gradient.css", size: 3471, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2336,7 +2356,7 @@ func public_css_components_slideshow_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slideshow.gradient.min.css", size: 2015, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slideshow.gradient.min.css", size: 2015, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2356,7 +2376,7 @@ func public_css_components_slideshow_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/slideshow.min.css", size: 2015, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/slideshow.min.css", size: 2015, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2376,7 +2396,7 @@ func public_css_components_sortable_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sortable.almost-flat.css", size: 1623, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/sortable.almost-flat.css", size: 1623, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2396,7 +2416,7 @@ func public_css_components_sortable_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sortable.almost-flat.min.css", size: 516, mode: os.FileMode(438), modTime: time.Unix(1434264195, 0)}
+	info := bindata_file_info{name: "public/css/components/sortable.almost-flat.min.css", size: 516, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2416,7 +2436,7 @@ func public_css_components_sortable_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sortable.css", size: 1623, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sortable.css", size: 1623, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2436,7 +2456,7 @@ func public_css_components_sortable_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sortable.gradient.css", size: 1623, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sortable.gradient.css", size: 1623, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2456,7 +2476,7 @@ func public_css_components_sortable_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sortable.gradient.min.css", size: 516, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sortable.gradient.min.css", size: 516, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2476,7 +2496,7 @@ func public_css_components_sortable_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sortable.min.css", size: 516, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sortable.min.css", size: 516, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2496,7 +2516,7 @@ func public_css_components_sticky_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sticky.almost-flat.css", size: 887, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sticky.almost-flat.css", size: 887, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2516,7 +2536,7 @@ func public_css_components_sticky_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sticky.almost-flat.min.css", size: 444, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sticky.almost-flat.min.css", size: 444, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2536,7 +2556,7 @@ func public_css_components_sticky_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sticky.css", size: 887, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sticky.css", size: 887, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2556,7 +2576,7 @@ func public_css_components_sticky_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sticky.gradient.css", size: 887, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sticky.gradient.css", size: 887, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2576,7 +2596,7 @@ func public_css_components_sticky_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sticky.gradient.min.css", size: 444, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sticky.gradient.min.css", size: 444, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2596,7 +2616,7 @@ func public_css_components_sticky_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/sticky.min.css", size: 444, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/sticky.min.css", size: 444, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2616,7 +2636,7 @@ func public_css_components_tooltip_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/tooltip.almost-flat.css", size: 2461, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/tooltip.almost-flat.css", size: 2461, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2636,7 +2656,7 @@ func public_css_components_tooltip_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/tooltip.almost-flat.min.css", size: 1480, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/tooltip.almost-flat.min.css", size: 1480, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2656,7 +2676,7 @@ func public_css_components_tooltip_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/tooltip.css", size: 2396, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/tooltip.css", size: 2396, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2676,7 +2696,7 @@ func public_css_components_tooltip_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/tooltip.gradient.css", size: 2461, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/tooltip.gradient.css", size: 2461, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2696,7 +2716,7 @@ func public_css_components_tooltip_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/tooltip.gradient.min.css", size: 1480, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/tooltip.gradient.min.css", size: 1480, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2716,7 +2736,7 @@ func public_css_components_tooltip_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/tooltip.min.css", size: 1427, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/tooltip.min.css", size: 1427, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2736,7 +2756,7 @@ func public_css_components_upload_almost_flat_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/upload.almost-flat.css", size: 394, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/upload.almost-flat.css", size: 394, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2756,7 +2776,7 @@ func public_css_components_upload_almost_flat_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/upload.almost-flat.min.css", size: 134, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/upload.almost-flat.min.css", size: 134, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2776,7 +2796,7 @@ func public_css_components_upload_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/upload.css", size: 394, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/upload.css", size: 394, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2796,7 +2816,7 @@ func public_css_components_upload_gradient_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/upload.gradient.css", size: 394, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/upload.gradient.css", size: 394, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2816,7 +2836,7 @@ func public_css_components_upload_gradient_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/upload.gradient.min.css", size: 134, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/upload.gradient.min.css", size: 134, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2836,7 +2856,7 @@ func public_css_components_upload_min_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/css/components/upload.min.css", size: 134, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/css/components/upload.min.css", size: 134, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2856,7 +2876,7 @@ func public_fonts_fontawesome_otf() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/fonts/FontAwesome.otf", size: 93888, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/fonts/FontAwesome.otf", size: 93888, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2876,7 +2896,7 @@ func public_fonts_fontawesome_webfont_eot() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.eot", size: 60767, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.eot", size: 60767, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2896,7 +2916,7 @@ func public_fonts_fontawesome_webfont_ttf() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.ttf", size: 122092, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.ttf", size: 122092, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2916,7 +2936,7 @@ func public_fonts_fontawesome_webfont_woff() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.woff", size: 71508, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.woff", size: 71508, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2936,7 +2956,7 @@ func public_fonts_fontawesome_webfont_woff2() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.woff2", size: 56780, mode: os.FileMode(438), modTime: time.Unix(1434264196, 0)}
+	info := bindata_file_info{name: "public/fonts/fontawesome-webfont.woff2", size: 56780, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2956,7 +2976,7 @@ func public_js_jquery_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/jquery.min.js", size: 95957, mode: os.FileMode(438), modTime: time.Unix(1434264496, 0)}
+	info := bindata_file_info{name: "public/js/jquery.min.js", size: 95957, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2976,7 +2996,7 @@ func public_js_uikit_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/uikit.js", size: 100281, mode: os.FileMode(438), modTime: time.Unix(1434264187, 0)}
+	info := bindata_file_info{name: "public/js/uikit.js", size: 100281, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -2996,7 +3016,7 @@ func public_js_uikit_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/uikit.min.js", size: 47447, mode: os.FileMode(438), modTime: time.Unix(1434264187, 0)}
+	info := bindata_file_info{name: "public/js/uikit.min.js", size: 47447, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3016,7 +3036,7 @@ func public_js_components_accordion_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/accordion.js", size: 5081, mode: os.FileMode(438), modTime: time.Unix(1434264187, 0)}
+	info := bindata_file_info{name: "public/js/components/accordion.js", size: 5081, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3036,7 +3056,7 @@ func public_js_components_accordion_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/accordion.min.js", size: 2660, mode: os.FileMode(438), modTime: time.Unix(1434264187, 0)}
+	info := bindata_file_info{name: "public/js/components/accordion.min.js", size: 2660, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3056,7 +3076,7 @@ func public_js_components_autocomplete_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/autocomplete.js", size: 9688, mode: os.FileMode(438), modTime: time.Unix(1434264187, 0)}
+	info := bindata_file_info{name: "public/js/components/autocomplete.js", size: 9688, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3076,7 +3096,7 @@ func public_js_components_autocomplete_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/autocomplete.min.js", size: 4256, mode: os.FileMode(438), modTime: time.Unix(1434264187, 0)}
+	info := bindata_file_info{name: "public/js/components/autocomplete.min.js", size: 4256, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3096,7 +3116,7 @@ func public_js_components_datepicker_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/datepicker.js", size: 113356, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/datepicker.js", size: 113356, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3116,7 +3136,7 @@ func public_js_components_datepicker_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/datepicker.min.js", size: 37556, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/datepicker.min.js", size: 37556, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3136,7 +3156,7 @@ func public_js_components_form_password_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/form-password.js", size: 1769, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/form-password.js", size: 1769, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3156,7 +3176,7 @@ func public_js_components_form_password_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/form-password.min.js", size: 1059, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/form-password.min.js", size: 1059, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3176,7 +3196,7 @@ func public_js_components_form_select_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/form-select.js", size: 1753, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/form-select.js", size: 1753, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3196,7 +3216,7 @@ func public_js_components_form_select_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/form-select.min.js", size: 926, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/form-select.min.js", size: 926, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3216,7 +3236,7 @@ func public_js_components_grid_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/grid.js", size: 16742, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/grid.js", size: 16742, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3236,7 +3256,7 @@ func public_js_components_grid_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/grid.min.js", size: 6327, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/grid.min.js", size: 6327, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3256,7 +3276,7 @@ func public_js_components_htmleditor_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/htmleditor.js", size: 22894, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/htmleditor.js", size: 22894, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3276,7 +3296,7 @@ func public_js_components_htmleditor_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/htmleditor.min.js", size: 12073, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/htmleditor.min.js", size: 12073, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3296,7 +3316,7 @@ func public_js_components_lightbox_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/lightbox.js", size: 17303, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/lightbox.js", size: 17303, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3316,7 +3336,7 @@ func public_js_components_lightbox_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/lightbox.min.js", size: 8173, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/lightbox.min.js", size: 8173, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3336,7 +3356,7 @@ func public_js_components_nestable_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/nestable.js", size: 21181, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/nestable.js", size: 21181, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3356,7 +3376,7 @@ func public_js_components_nestable_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/nestable.min.js", size: 9162, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/nestable.min.js", size: 9162, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3376,7 +3396,7 @@ func public_js_components_notify_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/notify.js", size: 5145, mode: os.FileMode(438), modTime: time.Unix(1434264188, 0)}
+	info := bindata_file_info{name: "public/js/components/notify.js", size: 5145, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3396,7 +3416,7 @@ func public_js_components_notify_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/notify.min.js", size: 2654, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/notify.min.js", size: 2654, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3416,7 +3436,7 @@ func public_js_components_pagination_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/pagination.js", size: 5000, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/pagination.js", size: 5000, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3436,7 +3456,7 @@ func public_js_components_pagination_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/pagination.min.js", size: 2566, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/pagination.min.js", size: 2566, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3456,7 +3476,7 @@ func public_js_components_parallax_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/parallax.js", size: 13457, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/parallax.js", size: 13457, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3476,7 +3496,7 @@ func public_js_components_parallax_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/parallax.min.js", size: 5480, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/parallax.min.js", size: 5480, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3496,7 +3516,7 @@ func public_js_components_search_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/search.js", size: 3758, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/search.js", size: 3758, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3516,7 +3536,7 @@ func public_js_components_search_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/search.min.js", size: 2799, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/search.min.js", size: 2799, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3536,7 +3556,7 @@ func public_js_components_slider_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slider.js", size: 13912, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slider.js", size: 13912, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3556,7 +3576,7 @@ func public_js_components_slider_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slider.min.js", size: 6178, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slider.min.js", size: 6178, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3576,7 +3596,7 @@ func public_js_components_slideset_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slideset.js", size: 14038, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slideset.js", size: 14038, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3596,7 +3616,7 @@ func public_js_components_slideset_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slideset.min.js", size: 6848, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slideset.min.js", size: 6848, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3616,7 +3636,7 @@ func public_js_components_slideshow_fx_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slideshow-fx.js", size: 13664, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slideshow-fx.js", size: 13664, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3636,7 +3656,7 @@ func public_js_components_slideshow_fx_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slideshow-fx.min.js", size: 5688, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slideshow-fx.min.js", size: 5688, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3656,7 +3676,7 @@ func public_js_components_slideshow_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slideshow.js", size: 18399, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slideshow.js", size: 18399, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3676,7 +3696,7 @@ func public_js_components_slideshow_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/slideshow.min.js", size: 9158, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/slideshow.min.js", size: 9158, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3696,7 +3716,7 @@ func public_js_components_sortable_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/sortable.js", size: 22119, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/sortable.js", size: 22119, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3716,7 +3736,7 @@ func public_js_components_sortable_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/sortable.min.js", size: 8307, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/sortable.min.js", size: 8307, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3736,7 +3756,7 @@ func public_js_components_sticky_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/sticky.js", size: 10418, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/sticky.js", size: 10418, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3756,7 +3776,7 @@ func public_js_components_sticky_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/sticky.min.js", size: 3988, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/sticky.min.js", size: 3988, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3776,7 +3796,7 @@ func public_js_components_timepicker_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/timepicker.js", size: 5530, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/timepicker.js", size: 5530, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3796,7 +3816,7 @@ func public_js_components_timepicker_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/timepicker.min.js", size: 2643, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/timepicker.min.js", size: 2643, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3816,7 +3836,7 @@ func public_js_components_tooltip_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/tooltip.js", size: 8067, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/tooltip.js", size: 8067, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3836,7 +3856,7 @@ func public_js_components_tooltip_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/tooltip.min.js", size: 3679, mode: os.FileMode(438), modTime: time.Unix(1434264189, 0)}
+	info := bindata_file_info{name: "public/js/components/tooltip.min.js", size: 3679, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3856,7 +3876,7 @@ func public_js_components_upload_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/upload.js", size: 7590, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/components/upload.js", size: 7590, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3876,7 +3896,7 @@ func public_js_components_upload_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/components/upload.min.js", size: 3410, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/components/upload.min.js", size: 3410, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3896,7 +3916,7 @@ func public_js_core_alert_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/alert.js", size: 1791, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/alert.js", size: 1791, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3916,7 +3936,7 @@ func public_js_core_alert_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/alert.min.js", size: 868, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/alert.min.js", size: 868, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3936,7 +3956,7 @@ func public_js_core_button_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/button.js", size: 4112, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/button.js", size: 4112, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3956,7 +3976,7 @@ func public_js_core_button_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/button.min.js", size: 2317, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/button.min.js", size: 2317, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3976,7 +3996,7 @@ func public_js_core_core_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/core.js", size: 21477, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/core.js", size: 21477, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -3996,7 +4016,7 @@ func public_js_core_core_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/core.min.js", size: 10116, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/core.min.js", size: 10116, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4016,7 +4036,7 @@ func public_js_core_cover_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/cover.js", size: 2684, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/cover.js", size: 2684, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4036,7 +4056,7 @@ func public_js_core_cover_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/cover.min.js", size: 1466, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/cover.min.js", size: 1466, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4056,7 +4076,7 @@ func public_js_core_dropdown_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/dropdown.js", size: 9145, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/dropdown.js", size: 9145, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4076,7 +4096,7 @@ func public_js_core_dropdown_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/dropdown.min.js", size: 4099, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/dropdown.min.js", size: 4099, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4096,7 +4116,7 @@ func public_js_core_grid_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/grid.js", size: 3072, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/grid.js", size: 3072, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4116,7 +4136,7 @@ func public_js_core_grid_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/grid.min.js", size: 1607, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/grid.min.js", size: 1607, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4136,7 +4156,7 @@ func public_js_core_modal_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/modal.js", size: 11088, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/modal.js", size: 11088, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4156,7 +4176,7 @@ func public_js_core_modal_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/modal.min.js", size: 6089, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/modal.min.js", size: 6089, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4176,7 +4196,7 @@ func public_js_core_nav_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/nav.js", size: 4021, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/nav.js", size: 4021, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4196,7 +4216,7 @@ func public_js_core_nav_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/nav.min.js", size: 1914, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/nav.min.js", size: 1914, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4216,7 +4236,7 @@ func public_js_core_offcanvas_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/offcanvas.js", size: 5521, mode: os.FileMode(438), modTime: time.Unix(1434264190, 0)}
+	info := bindata_file_info{name: "public/js/core/offcanvas.js", size: 5521, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4236,7 +4256,7 @@ func public_js_core_offcanvas_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/offcanvas.min.js", size: 2684, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/offcanvas.min.js", size: 2684, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4256,7 +4276,7 @@ func public_js_core_scrollspy_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/scrollspy.js", size: 6943, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/scrollspy.js", size: 6943, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4276,7 +4296,7 @@ func public_js_core_scrollspy_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/scrollspy.min.js", size: 2889, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/scrollspy.min.js", size: 2889, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4296,7 +4316,7 @@ func public_js_core_smooth_scroll_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/smooth-scroll.js", size: 1823, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/smooth-scroll.js", size: 1823, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4316,7 +4336,7 @@ func public_js_core_smooth_scroll_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/smooth-scroll.min.js", size: 944, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/smooth-scroll.min.js", size: 944, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4336,7 +4356,7 @@ func public_js_core_switcher_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/switcher.js", size: 9047, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/switcher.js", size: 9047, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4356,7 +4376,7 @@ func public_js_core_switcher_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/switcher.min.js", size: 4112, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/switcher.min.js", size: 4112, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4376,7 +4396,7 @@ func public_js_core_tab_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/tab.js", size: 5324, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/tab.js", size: 5324, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4396,7 +4416,7 @@ func public_js_core_tab_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/tab.min.js", size: 2952, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/tab.min.js", size: 2952, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4416,7 +4436,7 @@ func public_js_core_toggle_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/toggle.js", size: 3339, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/toggle.js", size: 3339, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4436,7 +4456,7 @@ func public_js_core_toggle_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/toggle.min.js", size: 1709, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/toggle.min.js", size: 1709, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4456,7 +4476,7 @@ func public_js_core_touch_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/touch.js", size: 5990, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/touch.js", size: 5990, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4476,7 +4496,7 @@ func public_js_core_touch_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/touch.min.js", size: 2346, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/touch.min.js", size: 2346, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4496,7 +4516,7 @@ func public_js_core_utility_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/utility.js", size: 6089, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/utility.js", size: 6089, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4516,7 +4536,7 @@ func public_js_core_utility_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "public/js/core/utility.min.js", size: 2549, mode: os.FileMode(438), modTime: time.Unix(1434264191, 0)}
+	info := bindata_file_info{name: "public/js/core/utility.min.js", size: 2549, mode: os.FileMode(438), modTime: time.Unix(1434411984, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -4573,6 +4593,7 @@ func AssetNames() []string {
 
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
+	"templates/about.tmpl": templates_about_tmpl,
 	"templates/base.tmpl": templates_base_tmpl,
 	"templates/error.tmpl": templates_error_tmpl,
 	"templates/index.tmpl": templates_index_tmpl,
@@ -5287,6 +5308,8 @@ var _bintree = &_bintree_t{nil, map[string]*_bintree_t{
 		}},
 	}},
 	"templates": &_bintree_t{nil, map[string]*_bintree_t{
+		"about.tmpl": &_bintree_t{templates_about_tmpl, map[string]*_bintree_t{
+		}},
 		"base.tmpl": &_bintree_t{templates_base_tmpl, map[string]*_bintree_t{
 		}},
 		"error.tmpl": &_bintree_t{templates_error_tmpl, map[string]*_bintree_t{

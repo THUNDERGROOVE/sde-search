@@ -14,6 +14,11 @@ import (
 	"strings"
 )
 
+var (
+	Version string
+	Branch  string
+)
+
 type Global struct {
 	SDECount   int
 	SDEVersion string
@@ -23,11 +28,15 @@ type Global struct {
 	Devel      bool
 	Error      error
 	StackTrace template.HTML
+	Version    string
+	Branch     string
 }
 
 func NewGlobal() *Global {
 	return &Global{
-		Devel: Dev,
+		Devel:   Dev,
+		Version: Version,
+		Branch:  Branch,
 	}
 }
 

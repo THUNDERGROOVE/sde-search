@@ -14,7 +14,7 @@ var (
 )
 
 func init() {
-	if _, err := os.Stat(".git"); err != nil {
+	if _, err := os.Stat(".git"); err == nil {
 		log.Println("Git data found.  Running in development mode")
 		Dev = true
 	}
@@ -27,6 +27,7 @@ func init() {
 }
 
 func main() {
+	log.Printf("SDE Search %v@%v", Version, Branch)
 	log.Println("Loading SDE related things")
 	var err error
 	SDE, err = sde.Load("dust.sde")
