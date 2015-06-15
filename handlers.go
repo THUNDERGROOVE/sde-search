@@ -1,12 +1,17 @@
 package main
 
 import (
+	"errors"
+	"fmt"
 	"github.com/THUNDERGROOVE/SDETool/sde"
 	"github.com/gorilla/mux"
+	"html"
 	"html/template"
 	"log"
 	"net/http"
+	"runtime"
 	"strconv"
+	"strings"
 )
 
 type Global struct {
@@ -16,6 +21,8 @@ type Global struct {
 	Types      []*sde.SDEType
 	Type       *sde.SDEType
 	Devel      bool
+	Error      error
+	StackTrace template.HTML
 }
 
 func NewGlobal() *Global {
@@ -49,13 +56,15 @@ func HandlerSearch(rw http.ResponseWriter, req *http.Request) {
 		vals, err := SDE.Search(s)
 		g.Types = vals
 		if err != nil {
-			log.Println("TODO: Cool error page.")
+			PassError(rw, req, err)
+			return
 		}
 		Render(rw, "search.tmpl", g)
 	case "GET":
 		Render(rw, "search.tmpl", g)
 	default:
-		log.Println("TODO: Make this notify the user somehow that this is wrong.")
+		PassError(rw, req, errors.New("Invalid request method: "+req.Method))
+		return
 	}
 }
 
@@ -66,14 +75,40 @@ func HandlerType(rw http.ResponseWriter, req *http.Request) {
 		i, _ := strconv.Atoi(tids) // Ignore error because mux will ensure that it's castable to an int before letting the handdler kick in
 		t, err := SDE.GetType(i)
 		if err != nil {
-			log.Println("TODO: Show error page")
+			PassError(rw, req, err)
+			return
 		}
 		g.Type = t
 		Render(rw, "type.tmpl", g)
 	} else {
-		log.Println("TODO: Error page when  TypeID doesn't exist")
+		PassError(rw, req, fmt.Errorf("TypeID %v is invalid", tids))
+		return
 	}
 
+}
+
+func HandlerTestPassError(rw http.ResponseWriter, req *http.Request) {
+	err := errors.New("Test error :(")
+	PassError(rw, req, err)
+	return
+}
+
+// PassError renders an error page if the err is not nil
+func PassError(rw http.ResponseWriter, req *http.Request, err error) {
+	if err == nil {
+		return
+	}
+	g := NewGlobal()
+	g.Error = err
+	buf := make([]byte, 1<<16)
+	i := runtime.Stack(buf, true)
+	// Escape string
+	s := html.EscapeString(string(buf[:i]))
+	// Replace line breaks with br
+	s = strings.Replace(s, "\n", "<br>", -1)
+	g.StackTrace = template.HTML(s)
+	Render(rw, "error.tmpl", g)
+	rw.WriteHeader(http.StatusInternalServerError)
 }
 
 /*

@@ -9,8 +9,9 @@ import (
 
 var SDE *sde.SDE
 
+// @TODO: change to var and update at init to true if .git is found in the current working directory
 const (
-	Dev = false
+	Dev = true
 )
 
 func init() {
@@ -34,6 +35,8 @@ func main() {
 	m.HandleFunc("/info", HandlerInfo)
 	m.HandleFunc("/search", HandlerSearch)
 	m.HandleFunc("/type/{TypeID:[0-9]+}", HandlerType)
+
+	m.HandleFunc("/error", HandlerTestPassError)
 
 	// Devel stuff
 	m.HandleFunc("/dev/reload", HandlerReload)
