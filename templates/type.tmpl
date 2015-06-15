@@ -1,5 +1,36 @@
 {{template "base" .}}
 {{define "title"}} {{.Type.GetName}} {{end}}
 {{define "content"}}
-	Hello 
+	<div class="uk-block">
+		<div class="uk-container uk-container-center">
+			<h1>Name: {{.Type.GetName}}</h3>
+			<h5>TypeName: {{.Type.TypeName}}</h5>
+			<h5>TypeID: {{.Type.TypeID}}</h5>
+		</div>
+	</div>
+	<div class="uk-block">
+		<div class="uk-container uk-container-center">
+			<h1>Description:</h3>
+			<p>{{.Type.GetAttribute "mDescription"}}</p>
+		</div>
+	</div>
+	<div class="uk-block">
+		<div class="uk-container uk-container-center">
+			<h1>Attributes</h1>
+			<table class="uk-table">
+				<thead>
+					<th>Attribute Name</td>
+					<th>Attribute Value</td>
+				</thead>
+				<tbody>
+				{{range $k, $v := .Type.Attributes}}
+					<tr>
+						<td>{{$k}}</td>
+						<td>{{$v}}</td>
+					</tr>
+				{{end}}
+				<tbody>
+			</table>
+		</div>
+	</div>
 {{end}}

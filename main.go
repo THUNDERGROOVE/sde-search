@@ -9,6 +9,10 @@ import (
 
 var SDE *sde.SDE
 
+const (
+	Dev = true
+)
+
 func init() {
 	log.Println("Parsing templates")
 	ParseTemplates()
@@ -26,6 +30,9 @@ func main() {
 	m.HandleFunc("/info", HandlerInfo)
 	m.HandleFunc("/search", HandlerSearch)
 	m.HandleFunc("/type/{TypeID:[0-9]+}", HandlerType)
+
+	// Devel stuff
+	m.HandleFunc("/dev/reload", HandlerReload)
 	m.PathPrefix("/public/").Handler(http.StripPrefix("/public/", http.FileServer(http.Dir("public/"))))
 	log.Println("Starting http server.")
 	http.ListenAndServe("0.0.0.0:1339", m)

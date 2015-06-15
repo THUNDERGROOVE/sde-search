@@ -7,11 +7,20 @@
     {{template "meta" .}}
     <title>SDE Search | {{template "title" .}}</title>
     <link rel="stylesheet" type="text/css" href="/public/css/uikit.almost-flat.min.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/sde-search.css">
     <script type="text/javascript" src="/public/js/jquery.min.js"></script>
   </head>
   <body>
   	<div class="uk-navbar">
-  		<div class="uk-navbar-brand uk-hidden-small">SDE Search</div>
+  		<div class="uk-navbar-brand uk-hidden-small"><a href="/">SDE Search</a></div>
+      <div class="uk-navbar-content uk-navbar-flip">
+      {{if .Devel}}
+        <a href="/dev/reload">Reload templates</a>  
+        {{/* Make use JS to GET isntead of viewing the page with their browser
+             Alternatively, use a redirect to put them at the page they came from.
+        */}}
+        </div>
+      {{end}}
   		<div class="uk-navbar-content uk-hidden-small uk-navbar-flip">
   			<form class="uk-form uk-margin-remove uk-display-inline-block" action="/search" method="POST">
   				<input name="search" class="uk-form-width-small" placeholder="search">
