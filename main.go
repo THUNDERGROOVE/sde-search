@@ -11,7 +11,7 @@ var SDE *sde.SDE
 
 // @TODO: change to var and update at init to true if .git is found in the current working directory
 const (
-	Dev = true
+	Dev = false
 )
 
 func init() {
