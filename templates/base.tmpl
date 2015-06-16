@@ -15,9 +15,11 @@
   		<div class="uk-navbar-brand uk-hidden-small"><a href="/">SDE Search</a></div>
       <div class="uk-navbar-content uk-navbar-flip">
       {{if .Devel}}
-        <a href="/dev/reload">Reload templates</a>  
-        {{/* Make use JS to GET isntead of viewing the page with their browser
-             Alternatively, use a redirect to put them at the page they came from.
+        <a href="/dev/reload">Reload templates</a>
+        {{/*
+          @TODO: Low priority
+          Make use JS to GET isntead of viewing the page with their browser
+          Alternatively, use a redirect to put them at the page they came from. Better idea
         */}}
       {{end}}
       </div>
