@@ -13,20 +13,22 @@
 			{{end}}
 			<hr>
 			<h1>Attributes</h1>
-			<table class="table-responsive">
-				<thead>
-					<th>Attribute Name</td>
-					<th>Attribute Value</td>
-				</thead>
-				<tbody>
-				{{range $k, $v := .Type.Attributes}}
-					<tr>
-						<td>{{$k}}</td>
-						<td>{{$v}}</td>
-					</tr>
-				{{end}}
-				<tbody>
-			</table>
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<th>Attribute Name</td>
+						<th>Attribute Value</td>
+					</thead>
+					<tbody>
+					{{range $k, $v := .Type.Attributes}}
+						<tr>
+							<td>{{$k}}</td>
+							<td>{{$v}}</td>
+						</tr>
+					{{end}}
+					<tbody>
+				</table>
+			</tbody>
 		</div>
 	</div>
 {{end}}
