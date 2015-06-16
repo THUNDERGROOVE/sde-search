@@ -3,7 +3,17 @@
 */
 .sde-footer {
    position:fixed;
+   margin-bottom: 0px;
    bottom:0;
-   width: 95%;
-   height:10px;   /* Height of the footer */
+   width: 100%;
+   height:45px;   /* Height of the footer */
+}
+.container {
+	padding-top: 50px;
+}
+/*
+	Remove rounded corners
+*/
+* {
+  border-radius: 0 !important;
 }

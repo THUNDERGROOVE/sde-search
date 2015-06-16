@@ -1,12 +1,12 @@
 {{template "base" .}}
 {{define "title"}}Error{{end}}
 {{define "content"}}
-	<div class="uk-container uk-container-center">
+	<div class="container">
 		<h1>Error encountered.</h1>
-		<h3 class="uk-text-danger">{{.Error}}</h3w>
-		<div class="uk-panel uk-panel-box uk-panel-box-secondary">
-			<div class="uk-visible-hover uk-margin uk-clearfix">
-				<h3 class="uk-panel-title">Stacktrace:</h3>
+		<span class="label label-danger">{{.Error}}</span>
+		<div class="well">
+			<div class="clearfix">
+				<h3 class="well-title">Stacktrace:</h3>
 				<div class="uk-hidden">{{.StackTrace}}</div>
 			</div>
 		</div>

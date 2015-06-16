@@ -1,0 +1,18 @@
+{{template "base" .}}
+{{define "title"}}Index{{end}}
+{{define "content"}}
+	<div class="well">
+		<div class="well">
+			<h1>About:</h1>
+			SDE Search is a small web application designed to make finding out information about the items you use in game easier
+		</div>
+		<div class="well">
+			<h1>Technical information</h1>
+			SDE Search is written entirely in Go.<br>
+			It uses the sde package part of SDETool to easily and quickly find the information you're looking for.<br>
+			The server stores no other than error logs.<br>
+			The project is open source and available <a href="https://github.com/THUNDERGROOVE/sde-search">on GitHub</a><br>
+			It is licensed under the MIT license.<br>
+		</div>
+	</div>
+{{end}}
