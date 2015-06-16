@@ -1,8 +1,8 @@
 {{template "base" .}}
 {{define "title"}} {{.Type.GetName}} {{end}}
 {{define "content"}}
-	<div class="well">
-		<div class="container">
+	<div class="container">
+		<div class="well">
 			<h1>Name: {{.Type.GetName}}</h1>
 			<h5>TypeName: {{.Type.TypeName}}</h5>
 			<h5>TypeID: {{.Type.TypeID}}</h5>
