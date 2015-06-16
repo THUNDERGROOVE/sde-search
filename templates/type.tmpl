@@ -3,12 +3,12 @@
 {{define "content"}}
 	<div class="well">
 		<div class="container">
-			<h1>Name: {{.Type.GetName}}</h3>
+			<h1>Name: {{.Type.GetName}}</h1>
 			<h5>TypeName: {{.Type.TypeName}}</h5>
 			<h5>TypeID: {{.Type.TypeID}}</h5>
 			<hr>
 			{{if .Type.GetAttribute "mDescription"}}
-				<h1>Description:</h3>
+				<h1>Description:</h1>
 				<p>{{.Type.GetAttribute "mDescription"}}</p>
 			{{end}}
 			<hr>
@@ -16,8 +16,8 @@
 			<div class="table-responsive">
 				<table class="table">
 					<thead>
-						<th>Attribute Name</td>
-						<th>Attribute Value</td>
+						<th>Attribute Name</th>
+						<th>Attribute Value</th>
 					</thead>
 
 					<tbody>
@@ -30,5 +30,6 @@
 					</tbody>
 				</table>
 			</div>
+		</div>
 	</div>
 {{end}}
