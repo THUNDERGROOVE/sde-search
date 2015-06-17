@@ -9,6 +9,7 @@ import (
 	"html/template"
 	"log"
 	"net/http"
+	"regexp"
 	"runtime"
 	"strconv"
 	"strings"
@@ -18,6 +19,8 @@ var (
 	Version string
 	Branch  string
 )
+
+var HomeDirRegexp = regexp.MustCompile("/home/[a-zA-Z0-9]*/")
 
 // Global is a struct given to every single Render call.
 //
@@ -121,6 +124,7 @@ func PassError(rw http.ResponseWriter, req *http.Request, err error) {
 	s := html.EscapeString(string(buf[:i]))
 	// Replace line breaks with br
 	s = strings.Replace(s, "\n", "<br>", -1)
+	s = HomeDirRegexp.ReplaceAllString(s, "")
 	g.StackTrace = template.HTML(s)
 	Render(rw, "error.tmpl", g)
 	rw.WriteHeader(http.StatusInternalServerError)
