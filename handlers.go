@@ -24,7 +24,7 @@ type Global struct {
 	SDEVersion string
 	SDEOffical bool
 	Types      []*sde.SDEType
-	Type       *sde.SDEType
+	Type       *WrappedSDEType
 	Devel      bool
 	Error      error
 	StackTrace template.HTML
@@ -87,7 +87,8 @@ func HandlerType(rw http.ResponseWriter, req *http.Request) {
 			PassError(rw, req, err)
 			return
 		}
-		g.Type = t
+
+		g.Type = SDETypeToWraped(t)
 		Render(rw, "type.tmpl", g)
 	} else {
 		PassError(rw, req, fmt.Errorf("TypeID %v is invalid", tids))

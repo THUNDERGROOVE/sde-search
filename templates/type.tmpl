@@ -12,6 +12,39 @@
 				<p>{{.Type.GetAttribute "mDescription"}}</p>
 			{{end}}
 			<hr>
+
+			<h1>Display Attributes</h1>
+			<div class="table-responsive">
+			<table class="table">
+				<thead>
+					<th>Name</th>
+					<th>Value</th>
+				</thead>
+			<tbody>
+				
+				{{range .Type.GetDisplayAttributes}}
+					{{if eq .GetValueString "<nil>"}}{{else}}
+					<tr>
+						<td>{{.DisplayName}}|{{.TypeID}}</td>	
+						<td>{{.GetValueString}}{{.Units}}</td>
+					</tr>
+					{{end}}
+					{{if .Err}}
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+							Error encountered while parsing DisplayAttribute {{.DisplayName}}
+							</div>
+							<div class="panel-body">
+							{{.Err.Error}}
+							</div>
+						</div>
+					{{end}}
+				{{end}}
+			</tbody>
+			</table>
+			</div>
+
+			<hr>
 			<h1>Attributes</h1>
 			<div class="table-responsive">
 				<table class="table">
