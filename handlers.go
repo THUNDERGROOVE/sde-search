@@ -19,6 +19,10 @@ var (
 	Branch  string
 )
 
+// Global is a struct given to every single Render call.
+//
+// It contains everything a page will hopefully ever need to render.  Makes
+// templates way more consistant and easier to write.
 type Global struct {
 	SDECount   int
 	SDEVersion string
@@ -32,6 +36,7 @@ type Global struct {
 	Branch     string
 }
 
+// NewGlobal returns a Global pointer and fills in some values that will be the same for every page.
 func NewGlobal() *Global {
 	return &Global{
 		Devel:   Dev,
@@ -128,5 +133,7 @@ func HandlerReload(rw http.ResponseWriter, req *http.Request) {
 	if Dev {
 		Templates = make(map[string]*template.Template)
 		ParseTemplates()
+	} else {
+		PassError(rw, req, fmt.Errorf("Template reloading is only available in development mode."))
 	}
 }

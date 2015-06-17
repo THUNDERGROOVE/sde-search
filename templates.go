@@ -15,6 +15,7 @@ const (
 
 var Templates = make(map[string]*template.Template)
 
+// ParseTemplates clears the template map and reloads all of the found templates in the templates directory
 func ParseTemplates() {
 	f, err := ioutil.ReadDir("templates")
 	if err != nil {
@@ -31,12 +32,14 @@ func ParseTemplates() {
 	}
 }
 
+// ParseTemplate parses a single template given the filename
 func ParseTemplate(filename string) error {
 	var err error
 	Templates[filename], err = template.ParseFiles(filepath.Join("templates", filename), filepath.Join("templates", Base))
 	return err
 }
 
+// Render is a helper function that parses the templates and does a bunch of error/nil checks
 func Render(rw io.Writer, templateName string, g interface{}) {
 	if v, ok := Templates[templateName]; ok {
 		if rw == nil {
@@ -66,11 +69,14 @@ func Render(rw io.Writer, templateName string, g interface{}) {
 	Assets stuff
 */
 
+// UnpackAssets unpacks all of the go-bindata assets to the directory.  Should only be called in a development environment
 func UnpackAssets() {
 	for _, v := range AssetNames() {
 		unpackAsset(v)
 	}
 }
+
+// unpackAsset is a helper function that does the actual work of writing the file to disk
 func unpackAsset(assName string) {
 	d, _ := filepath.Split(assName)
 	if err := os.MkdirAll(d, 0777); err != nil {

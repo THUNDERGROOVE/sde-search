@@ -13,12 +13,16 @@ TODO:
 Certain things like flaylocks require the projectile to be looked up and searched as well for attributes
 */
 
+// MissingAttributes is a slice of strings of attributes that should ignore errors.
+//
+// Most of these are attributes that CCP has somehow left out of the dumps even though I know they are there.
 var MissingAttributes = []string{
 	"overHeatingInfo.cooldownTime",
 	"mMaxEquipmentBandwidth",
 	"mMultiLaunchCount",
 }
 
+// WrappedSDEType exists so we can add additional methods to the SDEType.
 type WrappedSDEType struct {
 	*sde.SDEType
 }
@@ -44,6 +48,8 @@ func SDETypeToWraped(t *sde.SDEType) *WrappedSDEType {
 	return o
 }
 
+// GetDisplayAttributes returns a map[string]*DisplayAttribute.  Makes it very
+// easy to look for things that a user wants to know.
 func (w *WrappedSDEType) GetDisplayAttributes() map[string]*DisplayAttribute {
 	out := make([]*DisplayAttribute, 0)
 	outm := make(map[string]*DisplayAttribute)
@@ -66,6 +72,7 @@ func (w *WrappedSDEType) GetDisplayAttributes() map[string]*DisplayAttribute {
 	return outm
 }
 
+// parseAttr parses an attribute adaptor into a DisplayAttribute given a TypeID and a Parent WrapppedSDEType
 func parseAttr(v int, parent *WrappedSDEType) *DisplayAttribute {
 	out := new(DisplayAttribute)
 
@@ -138,10 +145,12 @@ func (d *DisplayAttribute) GetValue() interface{} {
 	return origVal
 }
 
+// GetValueString is like GetValue but returns the value as a string.  Easier for templates
 func (d *DisplayAttribute) GetValueString() string {
 	return fmt.Sprintf("%v", d.GetValue())
 }
 
+// within returns true if it finds v in s
 func within(v string, s []string) bool {
 	for _, val := range s {
 		if v == val {
@@ -151,6 +160,8 @@ func within(v string, s []string) bool {
 	return false
 }
 
+// calROF is a function used for future profing ROF calculations.  Allows us to check the firemode and adapt the return value based on it
+// even if we don't use it yet
 func calcROF(i float64, firemode string) float64 {
 	switch firemode {
 	default:
