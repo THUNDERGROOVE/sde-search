@@ -24,9 +24,6 @@ func init() {
 	}
 	log.Println("Parsing templates")
 	ParseTemplates()
-}
-
-func main() {
 	log.Printf("SDE Search %v@%v", Version, Branch)
 	log.Println("Loading SDE related things")
 	var err error
@@ -34,12 +31,15 @@ func main() {
 	if err != nil {
 		log.Fatalf("Couldn't open SDE file:( %v", err.Error())
 	}
+}
+
+func main() {
 	m := mux.NewRouter()
 	m.HandleFunc("/", HandlerIndex)
 	m.HandleFunc("/info", HandlerInfo)
 	m.HandleFunc("/search", HandlerSearch)
 	m.HandleFunc("/type/{TypeID:[0-9]+}", HandlerType)
-
+	m.HandleFunc("/store", HandlerStoreView)
 	m.HandleFunc("/error", HandlerTestPassError)
 
 	// Devel stuff

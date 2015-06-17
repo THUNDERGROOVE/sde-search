@@ -1,0 +1,31 @@
+{{template "base" .}}
+{{define "recurse-groups"}}
+
+	{{if .SubGroups}}
+		<li>	
+			{{range .SubGroups}}
+					<label class="tree-toggler nav-header">{{.Name}}</label><br>
+					<ul class="nav nav-list tree">
+						{{range .Types}}
+							<li><a href="/type/{{.TypeID}}">{{.GetName}}</a></li>
+						{{end}}
+						{{template "recurse-groups" .}}
+					</ul>
+			{{end}}		
+		</li>
+	{{end}}
+
+
+{{end}}
+{{define "title"}}Store View{{end}}
+{{define "content"}}
+<br>
+<br>
+<div class="container">
+	<h3>Market Groups</h3>
+<label class="tree-toggler nav-header">All</label>
+	<ul class="nav nav-list">
+	{{template "recurse-groups" .MarketTree}}
+	</ul>
+</div>
+{{end}}

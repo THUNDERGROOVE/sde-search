@@ -37,6 +37,7 @@ type Global struct {
 	StackTrace template.HTML
 	Version    string
 	Branch     string
+	MarketTree *MarketGroup
 }
 
 // NewGlobal returns a Global pointer and fills in some values that will be the same for every page.
@@ -103,6 +104,12 @@ func HandlerType(rw http.ResponseWriter, req *http.Request) {
 		return
 	}
 
+}
+
+func HandlerStoreView(rw http.ResponseWriter, req *http.Request) {
+	g := NewGlobal()
+	g.MarketTree = MarketGroupCache
+	Render(rw, "store-view.tmpl", g)
 }
 
 func HandlerTestPassError(rw http.ResponseWriter, req *http.Request) {

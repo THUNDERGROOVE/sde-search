@@ -17,8 +17,10 @@
 			<div class="table-responsive">
 			<table class="table">
 				<thead>
+				<tr>	
 					<th>Name</th>
 					<th>Value</th>
+				</tr>
 				</thead>
 			<tbody>
 				
@@ -49,15 +51,17 @@
 			<div class="table-responsive">
 				<table class="table">
 					<thead>
+						<tr>
 						<th>Attribute Name</th>
 						<th>Attribute Value</th>
+						</tr>
 					</thead>
 
 					<tbody>
 					{{range $k, $v := .Type.Attributes}}
 						<tr>
 							<td>{{$k}}</td>
-							<td>{{$v}}</td>
+							<td>{{if isTypeID $v}}<a href="/type/{{$v}}">{{$v}}</a>{{else}}{{$v}}{{end}}</td>
 						</tr>
 					{{end}}
 					</tbody>

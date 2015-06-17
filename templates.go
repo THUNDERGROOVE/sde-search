@@ -7,6 +7,8 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
+	"strconv"
 )
 
 const (
@@ -14,6 +16,10 @@ const (
 )
 
 var Templates = make(map[string]*template.Template)
+
+var funcs = template.FuncMap{
+	"isTypeID": isTypeID,
+}
 
 // ParseTemplates clears the template map and reloads all of the found templates in the templates directory
 func ParseTemplates() {
@@ -34,8 +40,9 @@ func ParseTemplates() {
 
 // ParseTemplate parses a single template given the filename
 func ParseTemplate(filename string) error {
+	t := template.New("filename")
 	var err error
-	Templates[filename], err = template.ParseFiles(filepath.Join("templates", filename), filepath.Join("templates", Base))
+	Templates[filename], err = t.Funcs(funcs).ParseFiles(filepath.Join("templates", filename), filepath.Join("templates", Base))
 	return err
 }
 
@@ -54,7 +61,7 @@ func Render(rw io.Writer, templateName string, g interface{}) {
 			log.Println("Templates gave an ok but v was nil")
 			return
 		}
-		if err := v.Execute(rw, g); err != nil {
+		if err := v.ExecuteTemplate(rw, templateName, g); err != nil {
 			log.Println("Execution of the template", templateName, "failed because", err.Error())
 		}
 	} else {
@@ -89,4 +96,24 @@ func unpackAsset(assName string) {
 	if err := ioutil.WriteFile(assName, data, 0777); err != nil {
 		log.Fatalf("Unable to write unpacked asset to directory: %v [%v]", assName, err.Error())
 	}
+}
+
+/*
+	Custom template functions
+*/
+
+var TypeIDRegex = regexp.MustCompile("^3[0-9]{5}")
+
+func isTypeID(val interface{}) bool {
+	var v string
+	switch t := val.(type) {
+	case string:
+		v = t
+	case int:
+		v = strconv.Itoa(t)
+	}
+	if TypeIDRegex.MatchString(v) {
+		return true
+	}
+	return false
 }

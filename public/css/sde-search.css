@@ -17,3 +17,6 @@ body {
 * {
   border-radius: 0 !important;
 }
+ul > li {
+    margin-left: 10px;
+}

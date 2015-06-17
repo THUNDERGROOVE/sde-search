@@ -2,17 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/THUNDERGROOVE/SDETool/sde"
 	"testing"
 )
-
-func TestSetupStuff(t *testing.T) {
-	var err error
-	SDE, err = sde.Load("dust.sde")
-	if err != nil {
-		t.Fatalf("Couldn't open SDE file:( %v", err.Error())
-	}
-}
 
 func TestDisplayAttributes(t *testing.T) {
 	a, err := SDE.GetType(364022)
