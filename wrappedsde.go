@@ -16,6 +16,7 @@ Certain things like flaylocks require the projectile to be looked up and searche
 var MissingAttributes = []string{
 	"overHeatingInfo.cooldownTime",
 	"mMaxEquipmentBandwidth",
+	"mMultiLaunchCount",
 }
 
 type WrappedSDEType struct {
@@ -87,9 +88,6 @@ func parseAttr(v int, parent *WrappedSDEType) *DisplayAttribute {
 
 // GetValue parses the DisplayAttribute for a value to display.
 func (d *DisplayAttribute) GetValue() interface{} {
-	if within(d.AttributeName, MissingAttributes) {
-		return nil
-	}
 	var origVal interface{}
 
 	switch d.ValueSource {
@@ -98,9 +96,12 @@ func (d *DisplayAttribute) GetValue() interface{} {
 			log.Printf("Encountered a @hardcoded attribute: %v#%v", d.TypeName, d.TypeID)
 			return origVal
 		}
-		if v, ok := d.Parent.Attributes[d.AttributeName]; ok {
+		if v := d.Parent.GetAttribute(d.AttributeName); v != nil {
 			origVal = v
 		} else {
+			if within(d.AttributeName, MissingAttributes) {
+				return nil
+			}
 			d.Err = fmt.Errorf("parent had no type that matched DisplayAttribute's:%v#%v AttributeName %v", d.TypeName, d.TypeID, d.AttributeName)
 			return nil
 		}
