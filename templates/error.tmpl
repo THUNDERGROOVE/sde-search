@@ -4,10 +4,14 @@
 	<div class="container">
 		<h1>Error encountered.</h1>
 		<span class="label label-danger">{{.Error}}</span>
-		<div class="well">
-			<div class="clearfix">
-				<h3 class="well-title">Stacktrace:</h3>
-				<div class="uk-hidden">{{.StackTrace}}</div>
+		<hr>
+		<div class="panel panel-danger">
+			<div class="panel-heading">Stacktrace:</div>
+			<div class="panel-body">
+				<div class="collapse-group">
+					<a data-toggle="collapse" data-target="#trace">Toggle Stacktrace</a>
+					<div id="trace" class="collapse">{{.StackTrace}}</div>
+				</div>
 			</div>
 		</div>
 	</div>
