@@ -25,7 +25,7 @@
 				{{range .Type.GetDisplayAttributes}}
 					{{if eq .GetValueString "<nil>"}}{{else}}
 					<tr>
-						<td>{{.DisplayName}}|{{.TypeID}}</td>	
+						<td>{{.DisplayName}}</td>	
 						<td>{{.GetValueString}}{{.Units}}</td>
 					</tr>
 					{{end}}
