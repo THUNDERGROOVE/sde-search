@@ -15,6 +15,7 @@ Certain things like flaylocks require the projectile to be looked up and searche
 
 var MissingAttributes = []string{
 	"overHeatingInfo.cooldownTime",
+	"mMaxEquipmentBandwidth",
 }
 
 type WrappedSDEType struct {
