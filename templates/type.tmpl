@@ -3,9 +3,16 @@
 {{define "content"}}
 	<div class="container">
 		<div class="well">
-			<h1>Name: {{.Type.GetName}}</h1>
-			<h5>TypeName: {{.Type.TypeName}}</h5>
-			<h5>TypeID: {{.Type.TypeID}}</h5>
+			<div class="row">
+				<div class="col-sm-1">
+					<img style="padding-top: 25px;" src="/{{.Type.ResolveImageURL}}">
+				</div>
+				<div class="col-md-8">
+					<h1>Name: {{.Type.GetName}}</h1>
+					<h5>TypeName: {{.Type.TypeName}}</h5>
+					<h5>TypeID: {{.Type.TypeID}}</h5>
+				</div>
+			</div>
 			<hr>
 			{{if .Type.GetAttribute "mDescription"}}
 				<h1>Description:</h1>

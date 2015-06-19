@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/THUNDERGROOVE/SDETool/sde"
 	"log"
+	"os"
 	"reflect"
 	"strings"
 )
@@ -46,6 +47,16 @@ func SDETypeToWraped(t *sde.SDEType) *WrappedSDEType {
 	o := new(WrappedSDEType)
 	o.SDEType = t
 	return o
+}
+
+//const BaseURL = "/public/img/"
+
+func (w *WrappedSDEType) ResolveImageURL() string {
+	f := "public/img" + fmt.Sprintf("/%v_64.png", w.TypeID)
+	if _, err := os.Stat(f); err == nil {
+		return f
+	}
+	return "public/img/unknown_64.png"
 }
 
 // GetDisplayAttributes returns a map[string]*DisplayAttribute.  Makes it very
