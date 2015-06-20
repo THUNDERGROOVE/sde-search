@@ -20,6 +20,7 @@ var (
 	Branch  string
 )
 
+// HomeDirRegexp is used as a filter for stacktraces.
 var HomeDirRegexp = regexp.MustCompile("/home/[a-zA-Z0-9]*/")
 
 // Global is a struct given to every single Render call.
