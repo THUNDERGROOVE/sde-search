@@ -15,5 +15,6 @@ func init() {
 		ver, _ := cmd.CombinedOutput()
 		Version = string(ver)
 		os.Chdir(os.Getenv("OPENSHIFT_DATA_DIR"))
+		Branch = "master" // No other branches will be deployed.  I don't even feel bad about this
 	}
 }
