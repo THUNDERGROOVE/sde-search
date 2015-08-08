@@ -13,7 +13,7 @@ func init() {
 		os.Chdir(filepath.Join(os.Getenv("HOME"), "git", "sdesearch.git"))
 		cmd := exec.Command("git", "rev-parse", "--short", "HEAD")
 		ver, _ := cmd.CombinedOutput()
-		Version = string(ver)
+		Version = string(ver[len(ver)-1]) // Last byte is garbage.
 		os.Chdir(os.Getenv("OPENSHIFT_DATA_DIR"))
 		Branch = "master" // No other branches will be deployed.  I don't even feel bad about this
 	}
