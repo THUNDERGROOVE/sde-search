@@ -33,7 +33,7 @@ func init() {
 	sdename := "dust.sde"
 
 	if !Dev {
-		sdename = fmt.Sprintf("%v/dust.sde", os.Getenv("OPENSHIFT_DATADIR"))
+		sdename = fmt.Sprintf("%vdust.sde", os.Getenv("OPENSHIFT_DATA_DIR"))
 	}
 
 	SDE, err = sde.Load(sdename)
