@@ -19,6 +19,9 @@ func init() {
 		log.Println("Git data found.  Running in development mode")
 		Dev = true
 	}
+	if !Dev {
+		os.Chdir(os.Getenv("OPENSHIFT_DATA_DIR"))
+	}
 	if Dev == false {
 		log.Printf("In non-development environment.  Unpacking assets")
 		UnpackAssets()
@@ -30,13 +33,7 @@ func init() {
 
 	var err error
 
-	sdename := "dust.sde"
-
-	if !Dev {
-		sdename = fmt.Sprintf("%vdust.sde", os.Getenv("OPENSHIFT_DATA_DIR"))
-	}
-
-	SDE, err = sde.Load(sdename)
+	SDE, err = sde.Load("dust.sde")
 	if err != nil {
 		log.Fatalf("Couldn't open SDE file:( %v", err.Error())
 	}
