@@ -1,0 +1,24 @@
+{{template "base" .}}
+{{define "title"}}Search Results{{end}}
+{{define "content"}}
+<div class="container">
+	<h1>Results:</h1>
+	<table class="table">
+	{{/* Looks funky as hell lol */}}
+	<thead>
+		<th>Name</th>
+		<th>TypeID</th>
+	</thead>
+	<tbody>
+		{{range .Types}}
+			<tr>
+				<td><a href="/type/{{.TypeID}}">{{.GetName}}</a></td>
+				<td>{{.TypeID}}</td>
+			</tr>
+		{{else}}
+	<p>No search results returned</p>
+	{{end}}
+	</tbody>
+	</table>
+</div>	
+{{end}}

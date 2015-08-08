@@ -1,0 +1,67 @@
+{{define "base"}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Nick Powell">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{template "meta" .}}
+    <title>SDE Search | {{template "title" .}}</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/public/css/sde-search.css">
+
+    <script type="text/javascript" src="/public/js/jquery.min.js"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/public/js/sde-search.js"></script>
+  </head>
+  <body>
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">SDE Search</a>
+          {{/*
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="/store">Store</a></li>
+            </ul>
+          */}}
+        </div>
+        <div class="navbar-text">
+        {{if .Devel}}
+          <form action="/dev/reload"><button><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button></form>
+          {{/*
+            @TODO: Low priority
+            Make use JS to GET isntead of viewing the page with their browser
+            Alternatively, use a redirect to put them at the page they came from. Better idea
+          */}}
+        {{end}}
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" action="/search" method="POST">
+            <div class="form-group">
+              <input name="search" class="form-control" placeholder="search">
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
+  	   </div>
+     </div>
+  	{{template "content" .}}
+    <div class="panel panel-primary sde-footer">
+      <div class="panel-heading">
+        <div class="panel-title">
+          SDE Search version <a class="text-success" href="https://github.com/THUNDERGROOVE/sde-search/commit/{{.Version}}">{{.Version}}</a>@{{.Branch}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+{{end}}
+{{define "meta"}}{{end}}

@@ -1,0 +1,79 @@
+{{template "base" .}}
+{{define "title"}} {{.Type.GetName}} {{end}}
+{{define "content"}}
+	<div class="container">
+		<div class="well">
+			<div class="row">
+				<div class="col-sm-1">
+					<img style="padding-top: 25px;" src="/{{.Type.ResolveImageURL}}">
+				</div>
+				<div class="col-md-8">
+					<h1>Name: {{.Type.GetName}}</h1>
+					<h5>TypeName: {{.Type.TypeName}}</h5>
+					<h5>TypeID: {{.Type.TypeID}}</h5>
+				</div>
+			</div>
+			<hr>
+			{{if .Type.GetAttribute "mDescription"}}
+				<h1>Description:</h1>
+				<p>{{.Type.GetAttribute "mDescription"}}</p>
+			{{end}}
+			<hr>
+
+			<h1>Display Attributes</h1>
+			<div class="table-responsive">
+			<table class="table">
+				<thead>
+				<tr>	
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+				</thead>
+			<tbody>
+				
+				{{range .Type.GetDisplayAttributes}}
+					{{if eq .GetValueString "<nil>"}}{{else}}
+					<tr>
+						<td>{{.DisplayName}}</td>	
+						<td>{{.GetValueString}}{{.Units}}</td>
+					</tr>
+					{{end}}
+					{{if .Err}}
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+							Error encountered while parsing DisplayAttribute {{.DisplayName}}
+							</div>
+							<div class="panel-body">
+							{{.Err.Error}}
+							</div>
+						</div>
+					{{end}}
+				{{end}}
+			</tbody>
+			</table>
+			</div>
+
+			<hr>
+			<h1>Attributes</h1>
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+						<th>Attribute Name</th>
+						<th>Attribute Value</th>
+						</tr>
+					</thead>
+
+					<tbody>
+					{{range $k, $v := .Type.Attributes}}
+						<tr>
+							<td>{{$k}}</td>
+							<td>{{if isTypeID $v}}<a href="/type/{{$v}}">{{$v}}</a>{{else}}{{$v}}{{end}}</td>
+						</tr>
+					{{end}}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+{{end}}
