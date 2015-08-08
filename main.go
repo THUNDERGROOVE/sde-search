@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/THUNDERGROOVE/SDETool/sde"
 	"github.com/gorilla/mux"
 	"log"
@@ -46,5 +47,13 @@ func main() {
 	m.HandleFunc("/dev/reload", HandlerReload)
 	m.PathPrefix("/public/").Handler(http.StripPrefix("/public/", http.FileServer(http.Dir("public/"))))
 	log.Println("Starting http server.")
-	http.ListenAndServe("0.0.0.0:1339", m)
+
+	var host string
+	var port string
+	if !Dev {
+		host = os.Getenv("HOST")
+		port = os.Getenv("PORT")
+	}
+
+	http.ListenAndServe(fmt.Sprintf("%v:%v", host, port), m)
 }
