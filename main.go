@@ -27,8 +27,16 @@ func init() {
 	ParseTemplates()
 	log.Printf("SDE Search %v@%v", Version, Branch)
 	log.Println("Loading SDE related things")
+
 	var err error
-	SDE, err = sde.Load("dust.sde")
+
+	sdename := "dust.sde"
+
+	if !Dev {
+		sdename = fmt.Sprintf("%v/dust.sde", os.Getenv("OPENSHIFT_DATADIR"))
+	}
+
+	SDE, err = sde.Load(sdename)
 	if err != nil {
 		log.Fatalf("Couldn't open SDE file:( %v", err.Error())
 	}
