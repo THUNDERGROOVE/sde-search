@@ -14,5 +14,6 @@ func init() {
 		cmd := exec.Command("git", "rev-parse", "--short", "HEAD")
 		ver, _ := cmd.CombinedOutput()
 		Version = string(ver)
+		os.Chdir(os.Getenv("OPENSHIFT_DATA_DIR"))
 	}
 }
